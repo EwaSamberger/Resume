@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to left, rgb(30, 33, 42), rgba(63, 62, 68, 0.616));
+    
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    float: left;
+    font-family:cursive;
+    font-size: 20px;
+    border: 2px solid rgb(154, 169, 236);
+}
+main {
+    padding: 20px;
+    float: left;
+}
+footer {
+    color: #fff;
+    padding: 10px;
+}
+nav {
+    min-width: 100vh;
+    max-width: 1500px;
+    background-image: linear-gradient(rgb(61, 59, 59), rgb(27, 26, 26));
+    padding: 16px;
+    display: block;
+    text-align: center;
+   
+}
+nav > a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding-left: 100px;
+    
+}
+main > p{
+    color: #fff;
+    padding: 15px;
+
+}
+.contact{
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column; 
+}
+.contact .content{
+    max-width: 800px;
+}
+.contact .content h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+
+}
+.contact .content p {
+    font-weight: 300;
+    color: #fff;
+
+}
+.container{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactInfo{
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.container .contactInfo .box .icon {
+    padding-left: 10px;
+    color: #fff;
+    
+
+}
